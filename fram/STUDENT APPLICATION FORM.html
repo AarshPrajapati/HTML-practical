@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Student Ragistration form</title>
+	</head>
+	<body bgcolor="yellow">
+		<table>
+		<tr>
+			<td>FIRST NAME:</td>      
+			<td colspan="4"><input type="text" name="fname" size="15"></td>
+		</tr>
+		<tr>
+			<td>LAST NAME:</td>
+			<td colspan="4"><input type="text" name="lname" size="15"></td>
+		</tr>
+		<tr>
+			<td>DATE OF BIRTH:</td>
+			<td colspan="4"><input type="date" name="date"></td>
+		</tr>
+		<tr>
+			<td>EMAIL ID</td>
+			<td colspan="4"><input type="email" name="email" id="email" autocomplete="on"></td>
+		</tr>
+		<tr>
+			<td>MOBILE NUMBER:</td>
+			<td colspan="4"><input type="tel" pattern="[0-9]{10}" name="tel" title="Enter Valid Number"></td>
+		</tr>		
+		<tr>
+			<td>GENDER:</td>
+			<td colspan="1">MALE</td>
+			<td colspan="1"><input type="radio" name="gender" value="male"></td>
+			<td colspan="1">FEMALE</td>
+			<td colspan="1"><input type="radio" name="gender" value="female"></td>
+		</tr>
+		<tr>
+			<td>ADDRESS:</td>
+			<td colspan="4"><textarea rows="4" cols="25"></textarea>
+		</tr>
+		<tr>
+			<td>PIN CODE:</td>
+			<td colspan="4"><input type="text" name="pinecode" size="15" maxlength="6">
+			<td>(6-digit number)</td>
+		</tr>
+		<tr>
+			<td>STATE:</td>
+			<td colspan="4"><input type="text" name="state" size"15"></td>
+		</tr>
+		<tr>
+			<td>COUNTRY:</td>
+			<td colspan="4"><input type="text" name="country" size"15"></td>
+		</tr>
+		<tr>
+			<td rowspan="3">HOBBIES:</td>
+			<td colspan="1">Drawing</td>
+			<td colspan="1"><input type="checkbox" name="Drawing"></td>
+			<td colspan="1">singing</td>
+			<td colspan="1"><input type="checkbox" name="singing"></td>
+		</tr>
+		<tr>
+			<td colspan="1">Dancing</td>
+			<td colspan="1"><input type="checkbox" name="Dancing"></td>
+			<td colspan="1">Skeching</td>
+			<td colspan="1"><input type="checkbox" name="Sketching"></td>
+		</tr>
+		<tr>
+			<td colspan="1">Gaming</td>
+			<td colspan="1"><input type="checkbox" name="Ganming"></td>
+			<td colspan="1">Others</td>
+			<td colspan="1"><input type="checkbox" name="Other"></td>
+		</tr>
+		</table>
+		<table action="simple.html" method="post">
+		<tr>
+			<td rowspan="5">QUALIFICATION</td>
+			<td align="center">SI.NO.</td>
+			<td align="center">Examination</td>
+			<td align="center">Board</td>
+			<td align="center">percentage</td>
+			<td align="center">Year of passing</td>
+			<td align="center">Upload Image</td>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td>Class X</td>
+			<td><input type="text">
+			<td><input type="text">
+			<td><input type="text">
+			<td><input type="file" value=""</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Class XII</td>
+			<td><input type="text">
+			<td><input type="text">
+			<td><input type="text">
+			<td><input type="file" value=""</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Graduation</td>
+			<td><input type="text">
+			<td><input type="text">
+			<td><input type="text">
+			<td><input type="file" value=""</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Masters</td>
+			<td><input type="text">
+			<td><input type="text">
+			<td><input type="text">
+			<td><input type="file" value=""</td>
+		</tr>
+		</table>
+		<table bgcolor="yellow">
+		<tr>
+			<td rowspan="1">COURES<br>APPLIED FOR</td>
+			<td>BCA</td>
+			<td><input type="radio" name="BCA"</td>
+			<td>BBA</td>
+			<td><input type="radio" name="BBA"</td> 
+			<td>BSC</td>
+			<td><input type="radio" name="BSC"</td>
+			<td>BA</td>
+			<td><input type="radio" name="BA"</td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="SUBMIT"></td>
+			<td><input type="reset"  value="RESET"></td>
+		</tr>
+		</table>
+	</body>
+</html>

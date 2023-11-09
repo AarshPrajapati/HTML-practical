@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reset</title>
+		<script language="javascript">
+		function restortext()
+		{
+			document.form1.textbox.value=document.form1.backup.value	
+		}
+		</script>
+	</head>
+	<body>
+		<h3>Example of Reset Button</h3>
+		<form >
+			User Name:-
+			<input type="text" name="fname" size="30">
+			<br><br>Password:-
+			<input type="password" name="password" size="30">
+			<br><br>
+			<input type="image" src="submit.png"width="100" hieght="40" alt="SUBMIT" onclick="restortext()">
+			<input type="reset" value="RESET" >
+			<input type="hidden" value="Example of Hidden Data">
+		</form>
+	</body>
+</html>

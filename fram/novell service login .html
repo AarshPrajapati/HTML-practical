@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Novell Services Login</title>
+	</head>
+	<body>
+		<table>
+			<caption>
+				<h2>Novell Services Login</h2>
+			</caption>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="username" size="20">
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" size="20"></td>
+			</tr>
+			<tr>
+				<td>City of</td>
+				<td><input type="text" name="cityname" size="20">
+			</tr>
+			<tr>
+				<td>Employment</td>
+				<td><input type="text" name="cityname" size="20">
+			</tr>
+			<tr>
+				<td>Web Server:</td>
+				<td><input type="text" value="-Choose a server-" list="web server">
+				<datalist id="web server">
+				<option value="indian server">Indian server</option>
+				<option value="us server">US Server</option>
+				</datalist>
+			</tr>
+		</table>
+		<table><br>
+
+			<th rowspan="5">Please specify<br>your role</th>
+			<tr>
+				<td><input type="radio" value="admin"></td>
+				<td>Admin</td>
+			</tr>
+			<tr>
+				<td><input type="radio" value="engineer"></td>
+				<td>Engineer</td>
+			</tr>
+			<tr>
+				<td><input type="radio" value="manager"></td>
+				<td>Manager</td>
+			</tr>
+			<tr>
+				<td><input type="radio" value="Guest"></td>
+				<td>Guest</td>
+			</tr>
+		</table>
+		<table><br>
+
+			<th rowspan="5">Single sign-on<br>to the following</th>
+			<tr>
+				<td><input type="checkbox" value="mail"></td>
+				<td>Mail</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" value="payroll"></td>
+				<td>Payroll</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" value="self-service"></td>
+				<td>Self-service</td>
+			</tr>
+			<tr>
+				<td><input type="button" value="login"></td>
+				<td><input type="reset" value="Reset"></td>
+			</tr>
+		</table>
+	</body>
+</html>
